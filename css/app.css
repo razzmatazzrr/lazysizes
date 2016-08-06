@@ -1,6 +1,18 @@
+body {
+    background-image: url("../assets/broken_noise.png");
+    background-repeat: repeat;
+    /*margin-top: 50px;*/
+}
+
 main {
     display:block;
 
+}
+
+.border {
+    border-style: solid;
+    border-width: 15px;
+    border-color: #cacaca;
 }
 
 .header {
