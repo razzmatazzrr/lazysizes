@@ -43,9 +43,23 @@ h1 {
 
 }
 
-	  .instagram:hover{
+/*	  .instagram:hover{
     opacity: 0.5;
-  }
+        fill: black;
+        stroke: red;
+        : 150%;
+  }*/
+
+.instagram {
+  transition: transform .4s ease-out;
+  transform-origin: 50% 50%;
+}
+
+.instagram:hover .instagram {
+  transform: rotate(50deg) scale(1.1);
+    opacity: 0.5;
+        stroke: #cacaca;    
+}
 
 #gallery-container {
 
