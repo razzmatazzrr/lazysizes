@@ -1,0 +1,138 @@
+main {
+    display:block;
+
+}
+
+.header {
+  width: 100%;
+  background-color: #cacaca; }
+
+#gallery-background {
+
+/*background: url("assets/img/other/broken_noise.png");
+background-repeat: repeat;*/
+
+background-color: #cacaca ;
+
+/*background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;*/
+}
+
+h1 {
+  text-align: center;}
+
+/*h2 {
+    margin-top: 100px;
+}*/
+
+#instagram {
+  text-align: center; }
+
+#dook {
+  color: #ffffff;
+  /*text-shadow: 0 0 20px black;*/
+  background-color: #4c4c4c;
+  font-size: 100px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+
+}
+
+	  .instagram:hover{
+    opacity: 0.5;
+  }
+
+#gallery-container {
+
+}
+
+
+/* Extra small (iPhone4)
+=================================*/
+@media only screen and (min-width: 0.063em) and (max-width: 20em) {
+  #gallery-container {
+    /*background-color: mediumseagreen;*/
+    }
+  #about-artist {
+    color: steelblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif; }
+}
+
+/* 1px and max-width 320px */
+/* Small (Mobile)
+=================================*/
+@media only screen and (min-width: 20.063em) and (max-width: 40em) {
+  #gallery-container {
+    margin: 0px 5px 0 5px;
+    /*background-color: cadetblue;*/
+    padding: 15px; }
+  #about-artist {
+    color: steelblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif; }
+}
+
+/* min-width 321px and max-width 640px */
+/* Medium (Tablet)
+=================================*/
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  #gallery-container {
+    margin: 0px 20px 0 20px;
+    /*background-color: tomato;*/
+    padding: 20px; }
+  #about-artist {
+    color: steelblue;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif; } }
+
+/* min-width 641px and max-width 1024px */
+/* Large (Laptop)
+=================================*/
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  #gallery-container {
+    margin: 0px 10px 0 10px;
+    /*background-color: orange;*/
+    padding: 30px; }
+  p {
+    font-family: 'Raleway', arial, serif;
+    color: cadetblue;
+    font-size: 1.25em;
+    line-height: 1.2em;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-gap: 80px;
+    -moz-column-gap: 80px;
+    -webkit-column-rule: 1px solid cadetblue;
+    -moz-column-rule: 1px solid cadetblue; } }
+
+/* min-width 1025px and max-width 1440px */
+/* Extra large (Wide Screen)
+=================================*/
+@media only screen and (min-width: 90em) and (max-width: 240em) {
+  #gallery-container {
+    margin: 0px 100px 0px 100px;
+    /*background-color: cadetblue;*/
+    padding: 40px; }
+  p {
+    font-family: 'Raleway', arial, serif;
+    color: cadetblue;
+    font-size: 1.25em;
+    line-height: 1.2em;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-gap: 80px;
+    -moz-column-gap: 80px;
+    -webkit-column-rule: 1px solid cadetblue;
+    -moz-column-rule: 1px solid cadetblue; }
+}
+
+/* min-width 1441px and max-width 1920px */
